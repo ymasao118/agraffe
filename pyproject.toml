@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "agraffe"
+version = "0.1.0"
+description = ""
+authors = ["Masao Yamaguchi"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+typing-extensions = "^3.7.4"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.782"
+black = "^19.10b0"
+isort = "^4.3.21"
+flake8 = "^3.8.3"
+functions-framework = "^2.0.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
